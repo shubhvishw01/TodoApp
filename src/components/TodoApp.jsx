@@ -57,7 +57,7 @@ function TodoApp() {
 
         <AddTodo setTodos={setTodos} />
 
-        <SearchTodos setSearch={setSearch} />
+        <SearchTodos search={search} setSearch={setSearch} />
 
         <ListTodos
           search={search}
